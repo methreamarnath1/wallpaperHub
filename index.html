@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WallpaperHub</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="app.js"></script>
+    <header>
+      <nav>
+        <div class="logo">
+          <img
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%234F46E5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'/%3E%3Cpolyline points='7 10 12 15 17 10'/%3E%3Cline x1='12' y1='15' x2='12' y2='3'/%3E%3C/svg%3E"
+            alt="Logo"
+          />
+          <h1>WallpaperHub</h1>
+        </div>
+        <div class="search-container">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search wallpapers..."
+          />
+          <!-- <select id="categoryFilter">
+            <option value="">All Categories</option>
+          </select> -->
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="loading-spinner" id="loader"></div>
+      <div class="wallpapers-grid" id="wallpapersGrid"></div>
+    </main>
+
+    <!-- <footer>
+      <p>© 2024 WallpaperHub- methre amarnath. All rights reserved.</p>
+    </footer> -->
+
+    <!-- <script src="wallpapers.js"></script> -->
+  </body>
+</html>
